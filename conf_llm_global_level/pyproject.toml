@@ -1,0 +1,20 @@
+[project]
+name = "conf-llm-global-level"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hamza Atiq", email = "66232332+Hamza-Atiq@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.0.4",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+conf-llm-global-level = "conf_llm_global_level:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
