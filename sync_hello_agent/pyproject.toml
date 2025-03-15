@@ -1,0 +1,20 @@
+[project]
+name = "sync-hello-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hamza Atiq", email = "66232332+Hamza-Atiq@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.0.4",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+sync-hello-agent = "sync_hello_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
